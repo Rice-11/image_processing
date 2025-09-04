@@ -70,7 +70,7 @@ def interactive_mode():
 def interactive_training():
     """Interactive training workflow"""
     print("🏋️ MODEL TRAINING")
-    print("-" * 30)
+    print("---" * 10)
     
     # Choose model type
     print("Available model types:")
@@ -132,7 +132,7 @@ def interactive_training():
 def interactive_prediction():
     """Interactive prediction workflow"""
     print("📸 REAL-TIME PREDICTION")
-    print("-" * 30)
+    print("---" * 10)
     
     # List available models
     model_files = glob.glob("models/*.h5")
@@ -194,7 +194,7 @@ def interactive_prediction():
 def run_quick_demo():
     """Run quick demo with lightweight model"""
     print("🎯 QUICK DEMO")
-    print("-" * 30)
+    print("---" * 10)
     print("This will:")
     print("1. Download the Sign Language MNIST dataset")
     print("2. Train a lightweight model (20 epochs, ~5-10 minutes)")
@@ -226,7 +226,7 @@ def run_quick_demo():
 def list_available_models():
     """List all available trained models"""
     print("🔧 AVAILABLE MODELS")
-    print("-" * 30)
+    print("---" * 10)
     
     model_files = glob.glob("models/*.h5")
     
