@@ -1,0 +1,17 @@
+# Ignore large model files, datasets, and archives
+models/
+ssd_mobilenet_v2_coco_2018_03_29/
+data/
+*.tar.gz
+*.pb
+*.onnx
+*.h5
+*.p
+*.caffemodel
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore OS-specific files
+.DS_Store
